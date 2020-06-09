@@ -7,4 +7,4 @@ COPY requirements.txt .
 
 RUN pip install -r requirements.txt
 
-CMD [ "python", "-u", "snap.py" ]
+CMD [ "python", "-u", "elasticsearch-take-snap.py" ]
