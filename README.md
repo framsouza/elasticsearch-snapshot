@@ -12,3 +12,5 @@ This code suppose you already have the repository plugin installed. If you still
 This code is responsable to connect into Elasticsearch cluster and take a snapshot twice a day (at the beginning & at the end of the day). The snapshot file is store in a Google Cloud Storage.
 
 The code is executed in a Kubernetes CronJob, that means it's trigger automatically every day at certain time.
+
+To send slack notification when the snapshot is finished, remember to add slack token and a slack channel name or id.
