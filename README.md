@@ -4,8 +4,8 @@ This code suppose you already have the repository plugin installed. If you still
 
 ## Variables needed
 
-- ELASTIC_HOST
-- REPO_NAME
+- `ELASTIC_HOST`
+- `REPO_NAME`
 
 ## How to use it
 
